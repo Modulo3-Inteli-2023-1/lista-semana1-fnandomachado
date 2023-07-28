@@ -1,21 +1,16 @@
-#  Se achar necessario, faça import de outras bibliotecas
 
-# Crie a função que será avaliada no exercício aqui
-def tem_duplicados(t):
+def tem_duplicados(lista): #define a função "tem duplicados"
 
-    d = {}
+    dict = {} #cria o dicionário dict
 
-    for x in t:
-
-        if x in d:
-
+    for i in lista: #passa por cada termo na lista
+        if i in dict: #vê se o termo está presente no dicionário
             return True
-
-        d[x] = True
+        dict[i] = True #adiciona o termo no dicionário, caso este não esteja ainda
 
     return False
 
-# Teste a sua função aqui (caso ache necessário)
+
 
 
 

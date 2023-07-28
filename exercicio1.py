@@ -1,10 +1,4 @@
-#  Se achar necessario, faça import de outras bibliotecas
 
-
-
-
-
-# Crie a função que será avaliada no exercício aqui
 def multiplas_operacoes(a, b): #define a função
     soma = a + b #soma a e b
     subtrai = a - b #subtrai b de a
@@ -18,7 +12,6 @@ def multiplas_operacoes(a, b): #define a função
     # print (soma, subtrai, multiplica, dividir) #retorna no console os resultados matemáticos
     return soma, subtrai, multiplica, dividir
 
-# Teste a sua função aqui (caso ache necessário)
 
 
 
